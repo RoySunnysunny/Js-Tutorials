@@ -28,3 +28,26 @@ const myfu = function(){
     console.log("Hello World");
     
 }
+
+//==================== Memory In javascript ==========================//
+
+// 1. Stack(primitive type) 2. Heap(Non-primitive)
+let myName = "sunny Roy"
+let anotherName = myName;
+
+anotherName ="Johnny Roy"
+// console.log(myName);
+// console.log(anotherName);
+
+let myData = {
+    email:'sunny@gmail.com',
+    age:24
+}
+
+let data = myData;
+
+data.email = 'roy@gmail.com'
+
+console.log(data.email);
+console.log(myData.email);
+
