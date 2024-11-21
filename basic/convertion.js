@@ -25,6 +25,12 @@ let numberval = 33
 
 let numberTostring = String(numberval)
 
-console.log(numberTostring);
-console.log(typeof numberTostring);
+// console.log(numberTostring);
+// console.log(typeof numberTostring);
 
+//********************************* Operation ************************//
+
+let value = 3
+let convalue = -value
+
+console.log(convalue);
