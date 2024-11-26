@@ -53,10 +53,25 @@ const user =[
 ]
 // console.log(user[1].email);
 //console.log(instaUser);
-console.log(Object.keys(instaUser));
-console.log(Object.values(instaUser));
-console.log(Object.entries(instaUser));
+// console.log(Object.keys(instaUser));
+// console.log(Object.values(instaUser));
+// console.log(Object.entries(instaUser));
 
-console.log(instaUser.hasOwnProperty('contact'));
+// console.log(instaUser.hasOwnProperty('contact'));
 
+//=================== Destructure and Json ==================//
 
+const course = {
+    cname:'js tutorial',
+    price: 350,
+    teacher: 'sunny'
+}
+
+const {teacher : courseInstructure} = course;
+console.log(courseInstructure);
+
+// {
+//     'name'  :'sunny',
+//     'cname' : 'jstutorial',
+//     'price' : 'free'
+// }
